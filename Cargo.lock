@@ -823,7 +823,7 @@ dependencies = [
  "bitflags 2.13.0",
  "cexpr",
  "clang-sys",
- "itertools 0.10.5",
+ "itertools 0.13.0",
  "proc-macro2",
  "quote",
  "regex",
@@ -7715,7 +7715,7 @@ dependencies = [
  "tracing",
  "url",
  "webrender",
- "webrender_api",
+ "webrender_api 0.70.0",
  "winit",
 ]
 
@@ -7777,7 +7777,7 @@ dependencies = [
  "servo-malloc-size-of",
  "time",
  "unicode-segmentation",
- "webrender_api",
+ "webrender_api 0.70.0",
  "windows-sys 0.61.2",
 ]
 
@@ -7834,7 +7834,7 @@ dependencies = [
  "tracing",
  "vello",
  "vello_cpu 0.0.9",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -7855,7 +7855,7 @@ dependencies = [
  "servo-webxr-api",
  "strum",
  "stylo",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -7976,7 +7976,7 @@ dependencies = [
  "servo-webgpu-traits",
  "strum",
  "uuid",
- "webrender_api",
+ "webrender_api 0.70.0",
  "wgpu-core",
  "zeroize",
 ]
@@ -8082,7 +8082,7 @@ dependencies = [
  "url",
  "uuid",
  "webdriver",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8136,7 +8136,7 @@ dependencies = [
  "unicode-script",
  "url",
  "uuid",
- "webrender_api",
+ "webrender_api 0.70.0",
  "winapi",
  "xml",
  "yeslogic-fontconfig-sys",
@@ -8162,7 +8162,7 @@ dependencies = [
  "servo-url",
  "stylo",
  "uuid",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8174,7 +8174,7 @@ dependencies = [
  "malloc_size_of_derive",
  "servo-malloc-size-of",
  "webrender",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8258,7 +8258,7 @@ dependencies = [
  "unicode_categories",
  "url",
  "web_atoms",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8290,7 +8290,7 @@ dependencies = [
  "servo_arc",
  "stylo",
  "stylo_traits",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8331,7 +8331,7 @@ dependencies = [
  "urlpattern",
  "uuid",
  "webrender",
- "webrender_api",
+ "webrender_api 0.70.0",
  "wr_malloc_size_of",
 ]
 
@@ -8536,7 +8536,7 @@ dependencies = [
  "servo-malloc-size-of",
  "servo-media",
  "servo-paint-api",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8640,7 +8640,7 @@ dependencies = [
  "url",
  "uuid",
  "webpki-roots",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8680,7 +8680,7 @@ dependencies = [
  "tokio",
  "url",
  "uuid",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8719,7 +8719,7 @@ dependencies = [
  "surfman",
  "tracing",
  "webrender",
- "webrender_api",
+ "webrender_api 0.70.0",
  "wr_malloc_size_of",
 ]
 
@@ -8755,7 +8755,7 @@ dependencies = [
  "stylo_traits",
  "surfman",
  "tracing",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8770,7 +8770,7 @@ dependencies = [
  "serde",
  "servo-base",
  "servo-malloc-size-of",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -8942,7 +8942,7 @@ dependencies = [
  "uuid",
  "web_atoms",
  "webdriver",
- "webrender_api",
+ "webrender_api 0.70.0",
  "wgpu-core",
  "wgpu-types",
  "x25519-dalek",
@@ -9022,7 +9022,7 @@ dependencies = [
  "strum",
  "stylo_atoms",
  "stylo_traits",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -9158,7 +9158,7 @@ dependencies = [
  "servo-webxr",
  "servo-webxr-api",
  "surfman",
- "webrender_api",
+ "webrender_api 0.70.0",
 ]
 
 [[package]]
@@ -9174,7 +9174,7 @@ dependencies = [
  "servo-paint-api",
  "servo-pixels",
  "servo-webgpu-traits",
- "webrender_api",
+ "webrender_api 0.70.0",
  "wgpu-core",
  "wgpu-types",
 ]
@@ -9189,7 +9189,7 @@ dependencies = [
  "servo-base",
  "servo-malloc-size-of",
  "servo-pixels",
- "webrender_api",
+ "webrender_api 0.70.0",
  "wgpu-core",
  "wgpu-types",
 ]
@@ -11305,7 +11305,7 @@ dependencies = [
  "svg_fmt",
  "topological-sort",
  "tracy-rs",
- "webrender_api",
+ "webrender_api 0.69.0",
  "webrender_build",
  "wr_glyph_rasterizer",
  "wr_malloc_size_of",
@@ -11317,6 +11317,26 @@ name = "webrender_api"
 version = "0.69.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "61c9f6c3b8ea958f6c34c3eb82f46ac42dacd94e3c18c710bcd27879ade71492"
+dependencies = [
+ "app_units",
+ "bitflags 2.13.0",
+ "byteorder",
+ "crossbeam-channel",
+ "euclid",
+ "malloc_size_of_derive",
+ "peek-poke",
+ "serde",
+ "serde_bytes",
+ "serde_derive",
+ "wr_malloc_size_of",
+ "zeitstempel",
+]
+
+[[package]]
+name = "webrender_api"
+version = "0.70.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "11fa15766536df782680147d2ed7a2d2cebd2dc9f0f48e89c56ca39f11259d76"
 dependencies = [
  "app_units",
  "bitflags 2.13.0",
@@ -12021,7 +12041,7 @@ dependencies = [
  "serde",
  "smallvec",
  "tracy-rs",
- "webrender_api",
+ "webrender_api 0.69.0",
  "wr_malloc_size_of",
 ]
 
