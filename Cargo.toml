@@ -214,7 +214,7 @@ rustc-hash = "2.1.2"
 rustls = { version = "0.23", default-features = false, features = ["logging", "std", "tls12"] }
 rustls-pki-types = "1.14"
 rustls-platform-verifier = "0.7.0"
-sea-query = { version = "=1.0.0-rc.31", default-features = false, features = ["backend-sqlite", "derive"] }
+sea-query = { version = "=1.0.1", default-features = false, features = ["backend-sqlite", "derive"] }
 sea-query-rusqlite = "=0.8.0-rc.15"
 selectors = { git = "https://github.com/servo/stylo", rev = "5b71023cc809a1ac0147ca88f02f2a774dd8f9d6" }
 seq-macro = "0.3.6"
